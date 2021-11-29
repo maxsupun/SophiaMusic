@@ -24,7 +24,7 @@ from SophiaMusic.config import THUMB_IMG
 from SophiaMusic.config import BOT_TOKEN
 from SophiaMusic.services.callsmusic import run
 
-response = requests.get(BG_IMAGE)
+response = requests.get(THUMB_IMG)
 file = open("./etc/foreground.png", "wb")
 file.write(response.content)
 file.close()
