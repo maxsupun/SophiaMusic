@@ -20,7 +20,7 @@ from pyrogram import Client as Bot
 
 from SophiaMusic.config import API_HASH
 from SophiaMusic.config import API_ID
-from SophiaMusic.config import BG_IMAGE
+from SophiaMusic.config import THUMB_IMG
 from SophiaMusic.config import BOT_TOKEN
 from SophiaMusic.services.callsmusic import run
 
